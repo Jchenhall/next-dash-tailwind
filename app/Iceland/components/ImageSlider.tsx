@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
 export const ImageSlider = () => {
-  const { items } = require("../../public/Items.json");
+  const { items } = require("../../../public/Iceland.json");
 
   const [currentIndex, setCurrentIndex] = useState((items.id = 0));
 
